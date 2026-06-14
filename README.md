@@ -1,28 +1,27 @@
-# Jogo Pong
+# Pong Game
 
-Projeto fictício de Jogo Pong desenvolvido via JavaScript.
+Fictional Pong Game project developed with JavaScript.
 
-| Nome        | **Jogo Pong**
+| Name | **Pong Game** |
+|------|------|
+| Technologies | JavaScript |
+| URL | https://editor.p5js.org/tallessanches/full/_Z_IgFMkZ |
 
-| Tecnologias | javascript
-
-| URL        | https://editor.p5js.org/tallessanches/full/_Z_IgFMkZ
-
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
+<!-- Insert image with #vitrinedev at the end of the link -->
 ![](https://raw.githubusercontent.com/tallessanches/jogopong/main/jogopong.png)
 
-## Detalhes do projeto
+## Project Details
 
-Pintado o cenário de preto alterando o valor do parâmetro da função background de 220 para 0;
-Criado a bolinha do jogo através da função circle;
-Detectado a colisão da bolinha com as bordas verificando a posição x e y;
-Foi melhorado o código criando anotações e funções sem alterar o comportamento do jogo;
-Criado uma função para desenhar a raquete;
-Movimentando a raquete através das setas para cima e para baixo do teclado, através dos códigos keyIsDown (UP_ARROW) e keyIsDown(DOWN_ARROW) respectivamente;
-Implementado a colisão da bolinha com a minha raquete, verificando a posição x e y de cada um deles;
-Importado uma biblioteca do Github que verifica a colisão;
-Reutilizado a função mostraRaquete() para criar a minha raquete e a raquete do oponente;
-Reaproveitado também a função verificaColisaoRaquete() para reconhecer a colisão da bolinha tanto com minha raquete quanto com a raquete do oponente;
-Criado o placar do jogo, marcando os meus pontos e os pontos do oponente;
-Editado o placar do jogo, alterando seu tamanho;
-Incluído sons no jogo, para melhorar a ambientação da pessoa que vai jogar.
+- Changed the background color from gray to black by modifying the `background()` function parameter from `220` to `0`.
+- Created the game ball using the `circle()` function.
+- Implemented ball collision detection with the screen borders by checking its `x` and `y` positions.
+- Improved code organization by adding comments and creating functions without changing the game's behavior.
+- Created a function to draw the paddle.
+- Enabled paddle movement using the keyboard arrow keys through `keyIsDown(UP_ARROW)` and `keyIsDown(DOWN_ARROW)`.
+- Implemented collision detection between the ball and the player's paddle by checking their respective `x` and `y` positions.
+- Imported a GitHub library to handle collision detection.
+- Reused the `showPaddle()` function to create both the player's paddle and the opponent's paddle.
+- Reused the `checkPaddleCollision()` function to detect collisions with both paddles.
+- Added a scoreboard to track the player's and the opponent's points.
+- Customized the scoreboard by adjusting its size.
+- Added sound effects to improve the overall gameplay experience and immersion.
